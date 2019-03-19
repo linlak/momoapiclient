@@ -1,5 +1,5 @@
 {
-  "name": "momoapiclient",
+  "name": "@linlak/momoapiclient",
   "version": "1.0.0",
   "description": "",
   "main": "momo-api-client.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/linlak/momoapiclient/issues"
   },
-  "homepage": "https://github.com/linlak/momoapiclient#readme"
+  "homepage": "https://github.com/linlak/momoapiclient#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
