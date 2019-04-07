@@ -1,6 +1,7 @@
 {
   "name": "@linlak/momoapiclient",
   "version": "1.0.1",
+  "title":"momoapiclient",
   "description": "",
   "main": "dist/momo-api-client.js",
   "scripts": {
@@ -12,7 +13,12 @@
     "url": "git+https://github.com/linlak/momoapiclient.git"
   },
   "keywords": [
-    "momoapi"
+    "momoapi",
+    "library",
+    "integration",
+    "mtn",
+    "momo",
+    "mobile money"
   ],
   "author": "Linus Nowomukama",
   "license": "MIT",
@@ -22,5 +28,21 @@
   "homepage": "https://github.com/linlak/momoapiclient#readme",
   "dependencies": {
     "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-compare-size": "^0.4.2",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^20.0.0",
+    "grunt-git-authors": "^3.2.0",
+    "grunt-jsonlint": "^1.1.0",
+    "grunt-karma": "^2.0.0",
+    "grunt-newer": "^1.3.0",
+    "grunt-npmcopy": "^0.1.0",
+    "requirejs": "^2.3.3",
+    "uglify-js": "^3.3.4"
   }
 }
